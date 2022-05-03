@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #cont{
+            border: 2px solid black;
+            display: flex;
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+        }
+        #d1{
+            width: 30%;
+            height: 200px;
+            background-color: red;
+            flex-direction: column;
+            order: 1;
+        }
+        #d2{
+            width: 30%;
+            height: 200px;
+            background-color: green;
+            flex-direction: column;
+            order: 3;
+        }
+        #d3{
+            width: 30%;
+            height: 200px;
+            background-color: blue;
+            flex-direction: column;
+            order: 2;
+        }
+    </style>
+</head>
+<body>
+    <div id="cont">
+        <div id="d1"></div>
+        <div id="d2"></div>
+        <div id="d3"></div>
+    </div>  
+</body>
+</html>
